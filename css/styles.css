@@ -1,0 +1,60 @@
+.page-header {
+    background-color: white;
+}
+
+
+.page-header,
+.page-header a
+.site-nav-link a
+{
+    color: #212121;
+
+}
+    
+
+
+
+.blacksection, .page-footer {
+    background-color: #2F303A;
+    
+}
+.blacksection {
+    color: #FFFFFF;
+}
+.footer-contacts a {
+    color: #FFFFFF;
+}
+.preference, .activity {
+    background-color: #F5F5F5;
+
+}
+
+.greysection {
+    background-color: #F5F4FA;
+}
+.page-prtfolio {
+
+background-color:#F5F5F5;
+}
+.link {
+    text-decoration: none;
+}
+.list {
+    list-style: none;
+    
+}
+img {
+    display: block;
+}
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
