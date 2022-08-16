@@ -38,7 +38,7 @@ img {
 body {
     background-color: var(--background-body-color) ;
 color: var(--color-text-standart);
-font-family: 'Roboto';
+font-family: 'Roboto', sans-serif;
     font-style: normal;
     /* font-weight: 400; это размер 400 от браузера */
     font-size: 14px;
@@ -73,7 +73,7 @@ font-family: 'Roboto';
 
 
 .logo-header , .logo-footer {
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif;
         font-weight: 700;
         font-size: 26px;
         line-height: 1.19;
@@ -98,9 +98,12 @@ font-family: 'Roboto';
         color: var(--color-text-darkbox);
     }
 .hero-btn {
+    cursor: pointer;
     color: inherit;
     background-color: var(--color-accent);
-    font-family: 'Roboto';
+        font-family: inherit;
+        sans-serif,
+        sans-serif;
         font-style: normal;
         font-weight: 700;
         font-size: 16px;
@@ -114,7 +117,8 @@ font-family: 'Roboto';
         text-align: center;
     }
 .hero-title {
-    /* font-family: 'Roboto'; это есть */
+    /* font-family: 'Roboto ,
+        sans-serif'; это есть */
         /* font-style: normal еть; */
         font-weight: 900;
         font-size: 44px;
@@ -166,6 +170,7 @@ font-family: 'Roboto';
 }
 
 .portfolio-btn {
+    cursor: pointer;
     background-color: var(--background-portfolio-btn) ;
     color: var(--color-portfolio-btn)
 }
@@ -192,8 +197,17 @@ font-family: 'Roboto';
         line-height: 1.88;
         /* identical to box height, or 188% */
     
-    color: var(--color-text-standart)
+    color: var(--color-text-standart);
+    }
+
+.site-nav :hover, .site-nav :focus, .contacts :hover, .contacts :focus, .footer-contacts :hover, .footer-contacts :focus {
+    color: var(--color-accent);
 }
+.portfolio-btn:hover, .portfolio-btn:focus {
+    background-color: var(--color-accent);
+    color: var(--color-text-darkbox);
+}
+
 .visually-hidden {
     position: absolute;
     white-space: nowrap;
