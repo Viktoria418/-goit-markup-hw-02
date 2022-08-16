@@ -56,6 +56,10 @@ font-family: 'Roboto', sans-serif;
     
 }
 
+.team-item {
+    background-color: var(--background-color-header);
+}
+
 .page-header {
     background-color: var(--background-color-header);
 }
